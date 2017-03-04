@@ -22,7 +22,7 @@
 Если будут вопросы, можете писать в [VK](https://vk.com/romankov94)
 
 Полезные ссылки для изучение материала 
-1. Android Studio -  https://developer.android.com/studio/index.html
-2. Рускоязычный ресурс - http://startandroid.ru/ru/uroki/vse-uroki-spiskom.html
-3. Официальная документация - https://developer.android.com/guide/index.html?hl=ru
-4. Документация Git - https://git-scm.com/book/ru/v1/Введение-Основы-Git
+- Android Studio -  https://developer.android.com/studio/index.html
+- Рускоязычный ресурс - http://startandroid.ru/ru/uroki/vse-uroki-spiskom.html
+- Официальная документация - https://developer.android.com/guide/index.html?hl=ru
+- Документация Git - https://git-scm.com/book/ru/v1/Введение-Основы-Git
