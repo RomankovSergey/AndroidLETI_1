@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="app.example.com.androidleti_1.MainActivity">
+
+    <Button
+        android:text="Сообщение об ошибке"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnSecondActivity"
+        android:id="@+id/btnError"
+        android:theme="@style/DefaultButton"
+        android:layout_alignLeft="@+id/btnSecondActivity"
+        android:layout_alignStart="@+id/btnSecondActivity"
+        android:layout_alignRight="@+id/btnSecondActivity"
+        android:layout_alignEnd="@+id/btnSecondActivity" />
+
+    <Button
+        android:text="Второй экран"
+        android:theme="@style/DefaultButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnSecondActivity"
+        android:layout_marginTop="190dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:elevation="0dp" />
+
+    <Button
+        android:text="Магия"
+        android:theme="@style/DefaultButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnFocus"
+        android:layout_below="@+id/btnError"
+        android:layout_alignLeft="@+id/btnError"
+        android:layout_alignStart="@+id/btnError"
+        android:layout_alignRight="@+id/btnError"
+        android:layout_alignEnd="@+id/btnError" />
+
+    <TextView
+        android:text="Привет!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
